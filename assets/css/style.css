@@ -1,0 +1,95 @@
+/* VALORI DI DEFAULT E RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* BUTTONS */
+
+.btn{
+    font-size: 0.8rem;
+    line-height: 200%;
+    vertical-align: 2px;
+    cursor: pointer;
+}
+
+.blue-btn{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.blue-btn:hover{
+    background-color: #3984ff;
+    transition: 0.3s;
+}
+
+/* FIXED NAVBAR */
+
+.fixed-navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.fixed-navbar-logo{
+    float: left;
+    margin-right: 20px;
+}
+
+.fixed-navbar-logo img{
+    vertical-align: -5px;
+}
+
+.fixed-navbar-left-content{
+    float: left;
+    padding: 0px 30px;
+    line-height: 100px;
+}
+
+.fixed-navbar-right-content{
+    float: right;
+    padding: 0px 30px;
+    line-height: 100px;
+}
+
+.fixed-navbar li{
+    display: inline-block;
+    margin: 0px 30px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.fixed-navbar li:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2s;
+}
+
+.fixed-navbar ul{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.navbar-btn{
+    padding: 2px 25px;
+    margin-left: 20px;
+}
