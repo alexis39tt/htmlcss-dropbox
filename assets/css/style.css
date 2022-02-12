@@ -29,6 +29,10 @@ h2{
     font-size: 2.5rem;
 }
 
+h3{
+    font-size: 1.5rem;
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -78,6 +82,11 @@ h2{
 .main-btn{
     padding: 2px 25px;
     font-size: 1rem;
+}
+
+.col-btn{
+    width: 100%;
+    font-size: 0.8rem;
 }
 
 /* FIXED NAVBAR */
@@ -272,7 +281,7 @@ header{
     float: left;
 }
 
-.col2{
+.col-mid{
     margin: 0px 75px;
 }
 
@@ -284,4 +293,46 @@ header{
 
 .plan-type p{
     display: inline-block;
+}
+
+.plan-name{
+    padding: 35px;
+}
+
+.plan-name h4{
+    padding: 15px 0px 5px;
+}
+
+.plan-name p{
+    font-size: 0.8rem;
+}
+
+.plan-name .subscription-recurrence{
+    margin-top: 0px;
+    padding-bottom: 30px;
+    display: block;
+    color: gray;
+}
+
+.plan-name button{
+    margin: 30px 0px;
+}
+
+.feature{
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.feature .icon, .feature .text{
+    float: left;
+}
+
+.feature .icon{
+    width: 8%;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.feature .text{
+    width: 92%;
 }
