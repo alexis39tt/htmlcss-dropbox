@@ -290,7 +290,7 @@ header{
 
 .col{
     width: calc(100% / 3 - 150px / 3);
-    height: 1200px;
+    height: 1150px;
     border: 2px solid #e0e0e0;
     float: left;
 }
@@ -310,7 +310,7 @@ header{
 }
 
 .plan-content{
-    padding: 35px;
+    padding: 30px;
 }
 
 .plan-content h4{
@@ -324,6 +324,7 @@ header{
 .plan-content .subscription-recurrence{
     margin-top: 0px;
     padding-bottom: 30px;
+    font-size: 0.8rem;
     display: block;
     color: gray;
 }
@@ -351,20 +352,18 @@ header{
     width: 92%;
 }
 
+.feature .fa-check{
+    color: #0061ff;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.feature li{
+    font-size: 0.85rem;
+}
+
 .plan-content hr{
     width: 20%;
     border: 1px solid #e0e0e0;
     margin: 30px 0px;
-}
-
-.plan-content li{
-    margin: 30px 0px;
-    font-size: 0.8rem;
-}
-
-.plan-content li::before{
-    content: "\f00c";
-    font-family: "FontAwesome";
-    padding-right: 5px;
-    color: #0061ff;
 }
