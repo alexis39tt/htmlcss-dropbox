@@ -218,7 +218,7 @@ header{
 
 /* SECTION 2 RADIO BUTTONS */
 
-.section2 .container{
+.section2 .container:first-child{
     padding-top: 250px;
 }
 
@@ -257,4 +257,31 @@ header{
     margin-left: 5.5px;
     margin-top: 2px;
     color: white;
+}
+
+/* SECTION 2 PRICE PLANS */
+
+.section2 .plans{
+    width: 100%;
+}
+
+.col{
+    width: calc(100% / 3 - 150px / 3);
+    height: 800px;
+    border: 2px solid #e0e0e0;
+    float: left;
+}
+
+.col2{
+    margin: 0px 75px;
+}
+
+.plan-type{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.plan-type p{
+    display: inline-block;
 }
