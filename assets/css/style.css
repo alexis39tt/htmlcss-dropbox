@@ -63,6 +63,10 @@ h3{
     color: #0055df;
 }
 
+.col{
+    border: 2px solid #e0e0e0;
+}
+
 /* BUTTONS AND BACKGROUNDS */
 
 .btn{
@@ -99,7 +103,6 @@ h3{
 }
 
 .col-btn{
-    width: 100%;
     font-size: 0.8rem;
 }
 
@@ -288,10 +291,9 @@ header{
     width: 100%;
 }
 
-.col{
+.col-1of3{
     width: calc(100% / 3 - 150px / 3);
     height: 1150px;
-    border: 2px solid #e0e0e0;
     float: left;
 }
 
@@ -329,7 +331,8 @@ header{
     color: gray;
 }
 
-.plan-content button{
+.col-1of3 .plan-content button{
+    width: 100%;
     margin: 30px 0px;
 }
 
@@ -366,4 +369,28 @@ header{
     width: 20%;
     border: 1px solid #e0e0e0;
     margin: 30px 0px;
+}
+
+/* ENTERPRISE PRICE PLAN */
+
+.col-1of1{
+    margin-top: 1220px;
+    width: 100%;
+    border: 2px solid #e0e0e0;
+}
+
+.col-1of1 .plan-content p{
+    font-size: 0.9rem;
+    padding-top: 30px;
+}
+
+.col-1of1 .plan-content{
+    padding-bottom: 0px;
+}
+
+.col-1of1 button{
+    position: relative;
+    width: 320px;
+    top: calc( -171px + 25px );
+    right: calc( -881px + 25px );
 }
