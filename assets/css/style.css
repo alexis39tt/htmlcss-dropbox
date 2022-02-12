@@ -91,6 +91,7 @@ header{
     width: 100%;
     display: block;
     background-color: white;
+    z-index: 99;
 }
 
 .fixed-navbar-logo{
@@ -215,21 +216,45 @@ header{
     bottom: -100px;
 }
 
-/* SECTION 2 */
+/* SECTION 2 RADIO BUTTONS */
 
 .section2 .container{
     padding-top: 250px;
 }
 
+.section2 .radio-buttons{
+    margin: 80px 0px 50px;
+}
+
+.section2 .radio-label{
+    cursor: pointer;
+}
+
+.radio-label p{
+    display: inline-block;
+    width: 200px;
+}
+
 .section2 input[type=radio]{
-    display: none;
-}
-
-.button1{
-    position: absolute;
-    height: 25px;
+    appearance: none;
     width: 25px;
-    background-color: #eee;
+    height: 25px;
+    border: 1px solid gray;
+    background-color: white;
     border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
 }
 
+.section2 input[type=radio]:checked{
+    background-color: #0061ff;
+    border: 1px solid #0061ff;
+}
+
+.section2 input[type=radio]:checked::before{
+    content: "\2B24";
+    position: absolute;
+    margin-left: 5.5px;
+    margin-top: 2px;
+    color: white;
+}
