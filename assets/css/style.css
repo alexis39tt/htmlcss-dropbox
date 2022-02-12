@@ -9,6 +9,7 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -20,14 +21,22 @@ ul{
     list-style: none;
 }
 
+h1{
+    font-size: 4.5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
 .clearfix{
     content: "";
     display: table;
     clear: both;
 }
 
-.w-60{
-    width: 60%;
+.w-65{
+    width: 65%;
     margin: auto;
 }
 
@@ -168,8 +177,7 @@ header{
 
 /* SECTION 1 */
 
-.section1 .slogan{
-    font-size: 3rem;
+.section1 h1{
     padding-top: 100px;
 }
 
@@ -206,3 +214,22 @@ header{
     margin-top: -100px;
     bottom: -100px;
 }
+
+/* SECTION 2 */
+
+.section2 .container{
+    padding-top: 250px;
+}
+
+.section2 input[type=radio]{
+    display: none;
+}
+
+.button1{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
