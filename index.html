@@ -7,60 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a37d750600.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <div class="fixed-navbar clearfix">
-            <div class="fixed-navbar-left-content">
-                <div class="fixed-navbar-logo">
-                    <a href="https://dropbox.com">
-                        <img src="./assets/img/logo-small.png">
+        <nav aria-label="barra di navigazione">
+            <div class="fixed-navbar clearfix">
+                <div class="fixed-navbar-left-content">
+                    <div class="fixed-navbar-logo">
+                        <a href="https://dropbox.com">
+                            <img src="./assets/img/logo-small.png">
+                        </a>
+                    </div>
+                    <ul class="fixed-navbar-list">
+                        <a href="#" class="list-element dropdown">
+                            <li>Perché Dropbox</li>
+                            <div class="fixed-navbar-dropdown">
+                                <ul class="dropdown-list">
+                                    <li>Storie di clienti</li>
+                                    <li>Come integriamo</li>
+                                    <li>Area di lavoro intelligente</li>
+                                    <li>Fai di più che archiviare</li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a href="#functions" class="list-element">
+                            <li>Funzioni</li>
+                        </a>
+                        <a href="#prices" class="list-element">
+                            <li>Piani e prezzi</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="fixed-navbar-right-content">
+                    <ul class="fixed-navbar-list">
+                        <a href="#" class="list-element dropdown">
+                            <li>Supporto</li>
+                            <div class="fixed-navbar-dropdown">
+                                <ul class="dropdown-list">
+                                    <li>Centro assistenza</li>
+                                    <li>Forum della community</li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a href="#" class="list-element">
+                            <li>Contatta l'ufficio vendite</li>
+                        </a>
+                        <a href="#" class="list-element">
+                            <li>Accedi</li>
+                        </a>
+                        <button class="btn blue-btn navbar-btn">Inizia</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1 lightblue">
+            <div class="container w-80 clearfix">
+                <div class="slogan">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                </div>
+                <div class="left-col">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
+                    </p>
+                    <p>Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato
+                        per ottimizzare il flusso di lavoro esistente.</p>
+                    <button class="btn blue-btn main-btn">Inizia la tua prova gratuita</button>
+                    <p>Annulla in qualsiasi momento</p>
+                    <a href="#prices">
+                        <i class="fa-solid fa-arrow-down"></i>
                     </a>
                 </div>
-                <ul class="fixed-navbar-list">
-                    <a href="#" class="list-element dropdown">
-                        <li>Perché Dropbox</li>
-                        <div class="fixed-navbar-dropdown">
-                            <ul class="dropdown-list">
-                                <li>Storie di clienti</li>
-                                <li>Come integriamo</li>
-                                <li>Area di lavoro intelligente</li>
-                                <li>Fai di più che archiviare</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="#functions" class="list-element">
-                        <li>Funzioni</li>
-                    </a>
-                    <a href="#prices" class="list-element">
-                        <li>Piani e prezzi</li>
-                    </a>
-                </ul>
+                <div class="right-col">
+                    <img src="./assets/img/jumbo.png">
+                </div>
             </div>
-            <div class="fixed-navbar-right-content">
-                <ul class="fixed-navbar-list">
-                    <a href="#" class="list-element dropdown">
-                        <li>Supporto</li>
-                        <div class="fixed-navbar-dropdown">
-                            <ul class="dropdown-list">
-                                <li>Centro assistenza</li>
-                                <li>Forum della community</li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <li>Contatta l'ufficio vendite</li>
-                    </a>
-                    <a href="#" class="list-element">
-                        <li>Accedi</li>
-                    </a>
-                    <button class="btn blue-btn navbar-btn">Inizia</button>
-                </ul>
-
-            </div>
-        </div>
-    </header>
+        </section>
+    </main>
 </body>
 
 </html>

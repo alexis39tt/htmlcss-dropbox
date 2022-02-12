@@ -26,10 +26,19 @@ ul{
     clear: both;
 }
 
-/* BUTTONS */
+.w-60{
+    width: 60%;
+    margin: auto;
+}
+
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+
+/* BUTTONS AND BACKGROUNDS */
 
 .btn{
-    font-size: 0.8rem;
     line-height: 200%;
     vertical-align: 2px;
     cursor: pointer;
@@ -47,16 +56,32 @@ ul{
     transition: 0.3s;
 }
 
+.blue-btn:active{
+    background-color: #0055df;
+}
+
 .navbar-btn{
     padding: 2px 25px;
     margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+.main-btn{
+    padding: 2px 25px;
+    font-size: 1rem;
 }
 
 /* FIXED NAVBAR */
 
+header{
+    height: 103px;
+}
+
 .fixed-navbar{
     position: fixed;
     width: 100%;
+    display: block;
+    background-color: white;
 }
 
 .fixed-navbar-logo{
@@ -98,6 +123,10 @@ ul{
     box-sizing: border-box;
 }
 
+.lightblue{
+    background-color: #b4d0e7;
+}
+
 /* FIXED NAVBAR DROPDOWN MENU */
 
 .fixed-navbar-dropdown{
@@ -131,4 +160,49 @@ ul{
 .dropdown-list li:hover{
     border-color: transparent;
     background-color: #f1f1f1;
+}
+
+.dropdown-list li:active{
+    background-color: #e9e9e9;
+}
+
+/* SECTION 1 */
+
+.section1 .slogan{
+    font-size: 3rem;
+    padding-top: 100px;
+}
+
+.section1 .left-col{
+    width: 31%;
+    margin-top: 50px;
+    font-size: 1rem;
+    float: left;
+}
+
+.section1 .left-col button{
+    margin: 30px 0px 10px;
+}
+
+.section1 .left-col button + p{
+    font-size: 0.8rem;
+}
+
+.section1 .left-col i{
+    font-size: 3rem;
+    margin: 50px 0px;
+}
+
+.section1 .right-col{
+    width: calc( 69% - 80px );
+    margin-top: 50px;
+    margin-left: 80px;
+    float: right;
+}
+
+.section1 .right-col img{
+    width: 1000px;
+    position: relative;
+    margin-top: -100px;
+    bottom: -100px;
 }
