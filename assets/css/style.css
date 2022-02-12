@@ -49,6 +49,20 @@ h3{
     margin: auto;
 }
 
+.link{
+    color: #0061ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: #3984ff;
+}
+
+.link:active{
+    color: #0055df;
+}
+
 /* BUTTONS AND BACKGROUNDS */
 
 .btn{
@@ -276,7 +290,7 @@ header{
 
 .col{
     width: calc(100% / 3 - 150px / 3);
-    height: 800px;
+    height: 1200px;
     border: 2px solid #e0e0e0;
     float: left;
 }
@@ -295,26 +309,26 @@ header{
     display: inline-block;
 }
 
-.plan-name{
+.plan-content{
     padding: 35px;
 }
 
-.plan-name h4{
+.plan-content h4{
     padding: 15px 0px 5px;
 }
 
-.plan-name p{
+.plan-content p{
     font-size: 0.8rem;
 }
 
-.plan-name .subscription-recurrence{
+.plan-content .subscription-recurrence{
     margin-top: 0px;
     padding-bottom: 30px;
     display: block;
     color: gray;
 }
 
-.plan-name button{
+.plan-content button{
     margin: 30px 0px;
 }
 
@@ -335,4 +349,22 @@ header{
 
 .feature .text{
     width: 92%;
+}
+
+.plan-content hr{
+    width: 20%;
+    border: 1px solid #e0e0e0;
+    margin: 30px 0px;
+}
+
+.plan-content li{
+    margin: 30px 0px;
+    font-size: 0.8rem;
+}
+
+.plan-content li::before{
+    content: "\f00c";
+    font-family: "FontAwesome";
+    padding-right: 5px;
+    color: #0061ff;
 }
