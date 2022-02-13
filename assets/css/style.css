@@ -439,12 +439,17 @@ header{
     padding-bottom: 80px;
 }
 
+.section4 .row{
+    margin-bottom: 100px;
+}
+
 .section4 .col{
     width: calc( 100% / 3 - 50px);
+    float: left;
 }
 
 .section4 .col-mid{
-    padding: 0px 25px;
+    margin: 0px 75px;
 }
 
 .section4 .col img{
