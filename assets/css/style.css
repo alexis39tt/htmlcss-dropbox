@@ -531,7 +531,7 @@ header{
     padding: 55px;
     position: absolute;
     background-color: #f5f5f5;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .section5 .mid-col img{
@@ -580,3 +580,30 @@ header{
 .color8{
     background-color: #ffd830;
 }
+
+/* SECTION 6 */
+
+.section6 .container{
+    padding: 120px 0px;
+}
+
+.section6 .left-col{
+    width: 70%;
+    float: left;
+}
+
+.section6 .left-col h2{
+    color: #61082c;
+    padding-right: 200px;
+}
+
+.section6 .right-col{
+    width: 30%;
+    float: right;
+}
+
+.section6 .right-col button{
+    padding: 0px 70px;
+    border: none;
+}
+
