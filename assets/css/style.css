@@ -63,7 +63,7 @@ h3{
     color: #0055df;
 }
 
-.col{
+.section2 .col, .section3 .col{
     border: 2px solid #e0e0e0;
 }
 
@@ -389,7 +389,6 @@ header{
 .col-1of1{
     margin-top: 1220px;
     width: 100%;
-    border: 2px solid #e0e0e0;
 }
 
 .col-1of1 .plan-content p{
@@ -416,7 +415,7 @@ header{
 }
 
 .section3 .container{
-    padding: 200px 0px;
+    padding: 200px 0px 100px;
 }
 
 .section3 .left-col img{
@@ -432,4 +431,30 @@ header{
 .section3 .right-col p{
     padding: 30px 0px;
     line-height: 35px;
+}
+
+/* SECTION 4 */
+
+.section4 h2{
+    padding-bottom: 80px;
+}
+
+.section4 .col{
+    width: calc( 100% / 3 - 50px);
+}
+
+.section4 .col-mid{
+    padding: 0px 25px;
+}
+
+.section4 .col img{
+    width: 100%;
+}
+
+.section4 .col p{
+    padding-top: 20px;
+}
+
+.section4 .col span{
+    text-decoration: underline;
 }
