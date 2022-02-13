@@ -49,6 +49,11 @@ h3{
     margin: auto;
 }
 
+.w-100{
+    width: 100%;
+    margin: auto;
+}
+
 .link{
     color: #0061ff;
     text-decoration: underline;
@@ -462,4 +467,116 @@ header{
 
 .section4 .col span{
     text-decoration: underline;
+}
+
+/* SECTION 5 */
+
+.section5 .container.w-65{
+    margin-top: 250px;
+}
+
+.section5 h2{
+    width: 55%;
+}
+
+.section5 p.link{
+    padding: 30px 0px 50px;
+}
+
+.section5 .left-col{
+    float: left;
+}
+
+.section5 .right-col{
+    float: right;
+}
+
+.section5 .left-col-small, .section5 .right-col-small{
+    width: 50%;
+}
+
+.section5 .left-col-small{
+    float: left;
+    height: 284.8px;
+    justify-content: center;
+    display: flex;
+}
+
+.section5 .right-col-small{
+    float: right;
+    height: 284.8px;
+    justify-content: center;
+    display: flex;
+}
+
+.section5 .col{
+    width: 30%;
+}
+
+.section5 .col img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    filter: invert(1);
+}
+
+.section5 .row{
+    float: left;
+}
+
+.section5 .mid-col{
+    width: 40%;
+    height: 569.6px;
+    margin-left: 30%;
+    padding: 55px;
+    position: absolute;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+}
+
+.section5 .mid-col img{
+    width: 25%;
+}
+
+.section5 .mid-col hr{
+    border: 1px solid #e0e0e0;
+    width: 10%;
+    margin: 25px 0px 60px;
+}
+
+.section5 .mid-col .signature{
+    margin-top: 60px;
+}
+
+.color1{
+    background-color: #a2d39b;
+    border: 12px solid #d0e9cd;
+}
+
+.color2{
+    background-color: #61082b;
+}
+
+.color3{
+    background-color: #0093ce;
+}
+
+.color4{
+    background-color: #ff1c1c;
+}
+
+.color5{
+    background-color: #d5001f;
+}
+
+.color6{
+    background-color: #b4d0e7;   
+}
+
+.color7{
+    background-color: #0d2481;
+}
+
+.color8{
+    background-color: #ffd830;
 }
