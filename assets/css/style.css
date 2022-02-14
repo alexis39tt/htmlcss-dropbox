@@ -68,6 +68,10 @@ h3{
     color: #0055df;
 }
 
+.lightblue{
+    background-color: #b4d0e7;
+}
+
 .section2 .col, .section3 .col{
     border: 2px solid #e0e0e0;
 }
@@ -175,10 +179,6 @@ header{
 .fixed-navbar-list{
     display: inline-block;
     box-sizing: border-box;
-}
-
-.lightblue{
-    background-color: #b4d0e7;
 }
 
 /* FIXED NAVBAR DROPDOWN MENU */
@@ -651,4 +651,66 @@ header{
 
 .toggle:checked + .answer{
     display: block;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer li{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+footer li:first-child{
+    padding-top: 20px;
+}
+
+footer li:hover{
+    color: #f1f1f1;
+}
+
+footer li:active{
+    color: #e9e9e9;
+}
+
+footer .col{
+    float: left;
+    margin: 100px 70px;
+}
+
+footer .col:first-of-type{
+    margin: 100px 70px 100px 0px;
+}
+
+footer hr{
+    width: 7.5%;
+    border: 1px solid gray;
+}
+
+footer .lang{
+    margin: 50px 0px;
+    color: gray;
+    cursor: pointer;
+}
+
+footer .lang:hover{
+    color: #e0e0e0;
+}
+
+footer .lang p{
+    display: inline-block;
+}
+
+footer .lang .arrow{
+    font-size: 0.6rem;
 }
