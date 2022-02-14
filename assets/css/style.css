@@ -623,8 +623,8 @@ header{
     cursor: pointer;
 }
 
-.question:last-of-type{
-    border-bottom: 2px solid #e0e0e0;
+.question-last{
+    border-bottom: 2px solid #e0e0e0;;
 }
 
 .question i{
@@ -643,10 +643,12 @@ header{
     margin: 20px 0px 0px;
 }
 
-.question:hover .answer{
-    display: block;
+.toggle{
+    position: absolute;
+    appearance: none;
+    cursor: pointer;
 }
 
-.question:hover i{
-    display: none;
+.toggle:checked + .answer{
+    display: block;
 }
